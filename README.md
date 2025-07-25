@@ -8,6 +8,7 @@ You can download it doing this:
 git clone https://github.com/BlowTobacco/AdvancedEnchantments-ConfigButBetter
 3. Go to the download location, default is:
 C:\Users\Your User\AdvancedEnchantments-ConfigButBetter
+
 # Preview
 ## You can find the enchanter.yml [here](https://github.com/BlowTobacco/AdvancedEnchantments-ConfigButBetter/blob/main/YMLS/enchanter.yml)
 <img width="349" height="226" alt="image" src="https://github.com/user-attachments/assets/b8e6d79c-8435-47ad-afc8-79abb24de970" />
