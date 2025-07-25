@@ -1,0 +1,28 @@
+# ##################################
+# Made by BlowTobacco <3
+# Made by BlowTobacco <3
+# Made by BlowTobacco <3
+# Made by BlowTobacco <3
+# Made by BlowTobacco <3
+# Made by BlowTobacco <3
+# Made by BlowTobacco <3
+# Made by BlowTobacco <3
+# Made by BlowTobacco <3
+# ##################################  
+# Show message when enchantment book is right-clicked
+  display-right-click-message: true
+  type: BOOK
+  id: 0
+  custom-model-data: 0
+  force-glow: false
+  name: '%group-color%✦✦✦ %group-color%&l%group-name% &fEnchantment %group-color%✦✦✦'
+  lore:
+  - '&7ᴄᴜsᴛᴏᴍ ᴇɴᴄʜᴀɴᴛᴇᴅ ʙᴏᴏᴋ'
+  - ''
+  - '&7「%group-color%&lCLICK&7」&fto open.'
+
+# NOTE FROM BLOWTOBACCO: THIS IS NOT A FULL .YML, YOU REPLACE THIS WITH THE ONE YOU HAVE IN YOU'RE CONFIG.YML
+# NOTE FROM BLOWTOBACCO: THIS IS NOT A FULL .YML, YOU REPLACE THIS WITH THE ONE YOU HAVE IN YOU'RE CONFIG.YML
+# NOTE FROM BLOWTOBACCO: THIS IS NOT A FULL .YML, YOU REPLACE THIS WITH THE ONE YOU HAVE IN YOU'RE CONFIG.YML
+# NOTE FROM BLOWTOBACCO: THIS IS NOT A FULL .YML, YOU REPLACE THIS WITH THE ONE YOU HAVE IN YOU'RE CONFIG.YML
+# NOTE FROM BLOWTOBACCO: THIS IS NOT A FULL .YML, YOU REPLACE THIS WITH THE ONE YOU HAVE IN YOU'RE CONFIG.YML
