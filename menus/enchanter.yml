@@ -1,0 +1,298 @@
+# ##################################
+# Made by BlowTobacco <3
+# Made by BlowTobacco <3
+# Made by BlowTobacco <3
+# Made by BlowTobacco <3
+# Made by BlowTobacco <3
+# Made by BlowTobacco <3
+# Made by BlowTobacco <3
+# Made by BlowTobacco <3
+# Made by BlowTobacco <3
+# ##################################
+
+# Configuration for Enchanter
+#  Change commands how to access it in top of config.yml
+
+# set to "none" to disable
+open-sound: ENDERDRAGON_WINGS
+# In what worlds enchanter is disabled
+disabled-in-worlds:
+- bad_world
+messages:
+  sound: ENTITY_PLAYER_LEVELUP
+right-click-to-view-enchants: true
+go-back-item:
+  enabled: true
+  item:
+    type: NETHER_STAR
+    id: 0
+    custom-model-data: 0
+  name: '&c&lGo Back'
+  lore: []
+# Should enchanter stay open after item is bought?
+keep-open: true
+# Enchanter inventory size
+# 9-18-27-36-45-54
+#
+# Placeholders:
+#  %group-enchant-count% - number of enchants in the group
+#  %price% - price
+#  %left% - remaining needed exp until player can purchase item
+# Economy:
+# exp, money, level, souls (works with items that are held when opening inventory), diamonds, gold (gold ingots), emeralds
+inventory:
+  size: 45
+  name: '   &c&lServerName &f&lEnchanter'
+  settings:
+    enchanterBookLevel: ALL
+  items:
+    0-45:
+      item:
+        type: STAINED_GLASS_PANE
+        id: 7
+        custom-model-data: 0
+        force-glow: false
+      name: ' '
+      lore: []
+    '19':
+      item:
+        type: ENCHANTED_BOOK
+        id: 0
+        custom-model-data: 0
+        force-glow: false
+      enchant-group: SIMPLE
+      price: level:20
+      sound: BLOCK_ANVIL_LAND
+      name: '&8✦✦✦ &fEnchantment &8&lSIMPLE &8✦✦✦'
+      lore:
+      - '&7ᴇɴᴄʜᴀɴᴛᴍᴇɴᴛ sɪᴍᴘʟᴇ'
+      - ''
+      - '&8• &fᴘʀɪᴄᴇ: &8%price% ʟᴇᴠᴇʟs'
+      - ''
+      - '&8↪ ʀɪɢʜᴛ-ᴄʟɪᴄᴋ &fᴛᴏ sᴇᴇ ᴛʜᴇ ʟɪsᴛ ᴏғ ᴇɴᴄʜᴀɴᴛᴍᴇɴᴛs.'
+      - '&8↩ ʟᴇғᴛ-ᴄʟɪᴄᴋ &fᴛᴏ ʙᴜʏ ᴀɴ ᴇɴᴄʜᴀɴᴛᴍᴇɴᴛ'
+    '10':
+      item:
+        type: BLACK_STAINED_GLASS_PANE
+        id: 59
+        custom-model-data: 0
+        force-glow: false
+        name: ' '
+        lore: []
+    '28':
+      item:
+        type: BLACK_STAINED_GLASS_PANE
+        id: 60
+        custom-model-data: 0
+        force-glow: false
+        name: ' '
+        lore: []
+    '20':
+      item:
+        type: ENCHANTED_BOOK
+        id: 5
+        custom-model-data: 0
+        force-glow: false
+      enchant-group: UNIQUE
+      sound: BLOCK_ANVIL_LAND
+      price: level:40
+      name: '&a✦✦✦ &fEnchantment &a&lUNIQUE &a✦✦✦'
+      lore:
+      - '&7ᴇɴᴄʜᴀɴᴛᴍᴇɴᴛ ᴜɴɪǫᴜᴇ'
+      - ''
+      - '&a• &fᴘʀɪᴄᴇ: &a%price% ʟᴇᴠᴇʟs'
+      - ''
+      - '&a↪ ʀɪɢʜᴛ-ᴄʟɪᴄᴋ &fᴛᴏ sᴇᴇ ᴛʜᴇ ʟɪsᴛ ᴏғ ᴇɴᴄʜᴀɴᴛᴍᴇɴᴛs.'
+      - '&a↩ ʟᴇғᴛ-ᴄʟɪᴄᴋ &fᴛᴏ ʙᴜʏ ᴀɴ ᴇɴᴄʜᴀɴᴛᴍᴇɴᴛ'
+    '11':
+      item:
+        type: LIME_STAINED_GLASS_PANE
+        id: 59
+        custom-model-data: 0
+        force-glow: false
+        name: ' '
+        lore: []
+    '29':
+      item:
+        type: LIME_STAINED_GLASS_PANE
+        id: 60
+        custom-model-data: 0
+        force-glow: false
+        name: ' '
+        lore: []
+    '21':
+      item:
+        type: ENCHANTED_BOOK
+        id: 3
+        custom-model-data: 0
+        force-glow: false
+      enchant-group: ELITE
+      price: level:60
+      name: '&b✦✦✦ &fEnchantment &b&lELITE &b✦✦✦'
+      lore:
+      - '&7ᴇɴᴄʜᴀɴᴛᴍᴇɴᴛ ᴇʟɪᴛᴇ'
+      - ''
+      - '&b• &fᴘʀɪᴄᴇ: &b%price% ʟᴇᴠᴇʟs'
+      - ''
+      - '&b↪ ʀɪɢʜᴛ-ᴄʟɪᴄᴋ &fᴛᴏ sᴇᴇ ᴛʜᴇ ʟɪsᴛ ᴏғ ᴇɴᴄʜᴀɴᴛᴍᴇɴᴛs.'
+      - '&b↩ ʟᴇғᴛ-ᴄʟɪᴄᴋ &fᴛᴏ ʙᴜʏ ᴀɴ ᴇɴᴄʜᴀɴᴛᴍᴇɴᴛ'
+    '12':
+      item:
+        type: LIGHT_BLUE_STAINED_GLASS_PANE
+        id: 59
+        custom-model-data: 0
+        force-glow: false
+        name: ' '
+        lore: []
+    '30':
+      item:
+        type: LIGHT_BLUE_STAINED_GLASS_PANE
+        id: 60
+        custom-model-data: 0
+        force-glow: false
+        name: ' '
+        lore: []
+    '22':
+      item:
+        type: ENCHANTED_BOOK
+        id: 4
+        custom-model-data: 0
+        force-glow: false
+      enchant-group: ULTIMATE
+      price: level:80
+      name: '&e✦✦✦ &fEnchantment &e&lULTIMATE &e✦✦✦'
+      lore:
+      - '&7ᴇɴᴄʜᴀɴᴛᴍᴇɴᴛ ᴜʟᴛɪᴍᴀᴛᴇ'
+      - ''
+      - '&e• &fᴘʀɪᴄᴇ: &e%price% ʟᴇᴠᴇʟs'
+      - ''
+      - '&e↪ ʀɪɢʜᴛ-ᴄʟɪᴄᴋ &fᴛᴏ sᴇᴇ ᴛʜᴇ ʟɪsᴛ ᴏғ ᴇɴᴄʜᴀɴᴛᴍᴇɴᴛs.'
+      - '&e↩ ʟᴇғᴛ-ᴄʟɪᴄᴋ &fᴛᴏ ʙᴜʏ ᴀɴ ᴇɴᴄʜᴀɴᴛᴍᴇɴᴛ'
+    '13':
+      item:
+        type: YELLOW_STAINED_GLASS_PANE
+        id: 59
+        custom-model-data: 0
+        force-glow: false
+        name: ' '
+        lore: []
+    '31':
+      item:
+        type: YELLOW_STAINED_GLASS_PANE
+        id: 60
+        custom-model-data: 0
+        force-glow: false
+        name: ' '
+        lore: []
+    '23':
+      item:
+        type: ENCHANTED_BOOK
+        id: 1
+        custom-model-data: 0
+        force-glow: false
+      enchant-group: LEGENDARY
+      price: level:100
+      name: '&6✦✦✦ &fEnchantment &6&lLEGENDARY &6✦✦✦'
+      lore:
+      - '&7ᴇɴᴄʜᴀɴᴛᴍᴇɴᴛ ʟᴇɢᴇɴᴅᴀʀʏ'
+      - ''
+      - '&6• &fᴘʀɪᴄᴇ: &6%price% ʟᴇᴠᴇʟs'
+      - ''
+      - '&6↪ ʀɪɢʜᴛ-ᴄʟɪᴄᴋ &fᴛᴏ sᴇᴇ ᴛʜᴇ ʟɪsᴛ ᴏғ ᴇɴᴄʜᴀɴᴛᴍᴇɴᴛs.'
+      - '&6↩ ʟᴇғᴛ-ᴄʟɪᴄᴋ &fᴛᴏ ʙᴜʏ ᴀɴ ᴇɴᴄʜᴀɴᴛᴍᴇɴᴛ'
+    '14':
+      item:
+        type: ORANGE_STAINED_GLASS_PANE
+        id: 59
+        custom-model-data: 0
+        force-glow: false
+        name: ' '
+        lore: []
+    '32':
+      item:
+        type: ORANGE_STAINED_GLASS_PANE
+        id: 60
+        custom-model-data: 0
+        force-glow: false
+        name: ' '
+        lore: []
+    '24':
+      item:
+        type: ENCHANTED_BOOK
+        id: 6
+        custom-model-data: 0
+        force-glow: false
+      enchant-group: FABLED
+      price: level:120
+      name: '&d✦✦✦ &fEnchantment &d&lFABLED &d✦✦✦'
+      lore:
+      - '&7ᴇɴᴄʜᴀɴᴛᴍᴇɴᴛ ғᴀʙʟᴇᴅ'
+      - ''
+      - '&d• &fᴘʀɪᴄᴇ: &d%price% ʟᴇᴠᴇʟs'
+      - ''
+      - '&d↪ ʀɪɢʜᴛ-ᴄʟɪᴄᴋ &fᴛᴏ sᴇᴇ ᴛʜᴇ ʟɪsᴛ ᴏғ ᴇɴᴄʜᴀɴᴛᴍᴇɴᴛs.'
+      - '&d↩ ʟᴇғᴛ-ᴄʟɪᴄᴋ &fᴛᴏ ʙᴜʏ ᴀɴ ᴇɴᴄʜᴀɴᴛᴍᴇɴᴛ'
+    '15':
+      item:
+        type: PINK_STAINED_GLASS_PANE
+        id: 59
+        custom-model-data: 0
+        force-glow: false
+        name: ' '
+        lore: []
+    '33':
+      item:
+        type: PINK_STAINED_GLASS_PANE
+        id: 60
+        custom-model-data: 0
+        force-glow: false
+        name: ' '
+        lore: []
+    '16':
+      item:
+        type: ANVIL
+        id: 0
+        custom-model-data: 0
+        force-glow: false
+      sound: BLOCK_ANVIL_USE
+      player-command:
+      - tinkerer
+      name: '&7✦&8✦&7✦ &c&lTinker &7✦&8✦&7✦'
+      lore:
+      - '&7ᴛɪɴᴋᴇʀ'
+      - ''
+      - '&fTurn enchantments into magic dust!'
+      - ''
+      - '&7↪ &fClick to open the menu'
+    '34':
+      item:
+        type: ENDER_PORTAL_FRAME
+        id: 0
+        custom-model-data: 0
+        force-glow: false
+      sound: ENTITY_ARROW_HIT
+      player-command:
+      - alchemist
+      name: '&7✦&8✦&7✦ &d&lAlchemist &7✦&8✦&7✦'
+      lore:
+      - '&7ᴀʟᴄʜᴇᴍɪsᴛ'
+      - ''
+      - '&fCombine enchantments or dusts'
+      - ''
+      - '&7↪ &fClick to open the menu'
+
+# Confirmation inventory for enchanter payments
+# Confirm or deny the transaction, acts like 2-step confirmation
+confirmation-inventory:
+  enabled: true
+  name: '&aConfirmation'
+  accept:
+    material: STAINED_GLASS_PANE
+    damage: 5
+    name: '&aAccept'
+    lore: []
+  cancel:
+    material: STAINED_GLASS_PANE
+    damage: 14
+    name: '&cCancel'
+    lore: []
